@@ -1,1 +1,39 @@
+article A subsection of text contained within a section
+aside Content related to the main article, but placed alongside to provide additional information
+div A grouping of similarly styled content within an article
+footer Content that appears at the bottom of the web page
+header Content that appears at the top of the web page
+nav A navigation area allowing site visitors to easily find other pages or related websites
+section A top-level grouping of articles
+
+CSS:
+
+especificando elementos:
+td, h1 {color: red; size: 30px; .....} // todos td's e h1's ficarão vermelhor
+
+especificando id:
+#meuid {color: red}
+<h1 id="meuid">This is a bad selection.</h1>
+
+especificando por classe:
+
+.minhacalsse {color: red;}
+<h1 class="minhacalsse">This is a bad selection.</h1>
+<p class="minhacalsse">Please make another selection.</p>
+se fosse apenas em p: p.minhaclasse {color: red}
+
+
+especificando pseudo-elemento(uma parte do elemento.. neste caso um 
+p::first-letter {font-size: 20px}
+
+especificando por pseudo-class
+pseudo-class applies the defined styles to an element that is in a specific state
+botao ja apertado, checkbox ja selecionada... depende do estado
+
+a: link {color: orange;}
+a: visited {color: purple;}
+a: hover {color: green;}
+a: active {color: red;}
+tem que ser nessa ordem de estados, se n, n funciona.
+
 
